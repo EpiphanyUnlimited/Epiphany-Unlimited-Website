@@ -34,20 +34,20 @@ const Hero: React.FC<HeroProps> = ({ onAboutClick }) => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           {/* Content Column */}
-          <div className="lg:col-span-6 z-10">
+          <div className="lg:col-span-6 z-10 reveal">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 mb-6 backdrop-blur-xl">
               <span className="h-2 w-2 rounded-full bg-blue-400 animate-pulse"></span>
               Strategic Clarity • Accepting New Clients
             </div>
             
             <h1 className="text-3xl sm:text-4xl lg:text-[3.2rem] font-geist font-light leading-[1.1] tracking-tighter mb-8">
-              <span className="text-[#60a5fa] font-semibold whitespace-nowrap">Epiphany Unlimited</span> <br />
+              <span className="text-[#000810] font-black whitespace-nowrap drop-shadow-[0_0_12px_rgba(255,255,255,0.8)]">Epiphany Unlimited</span> <br />
               <span className="text-gray-400">Turning Insight into</span> <br />
               <span className="gradient-text font-medium">Infinite Growth</span>
             </h1>
             
             <p className="max-w-xl text-lg sm:text-xl text-white/70 leading-relaxed mb-10">
-              We partner with visionary leaders to transform complex challenges into clear, actionable strategies. Experience the epiphany that changes everything for your business.
+              We partner with visionary leaders to transform complex challenges into aha moments that are supported by clear, actionable strategies. Experience the epiphany that changes everything for your business or passion project.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -65,16 +65,15 @@ const Hero: React.FC<HeroProps> = ({ onAboutClick }) => {
           </div>
 
           {/* Visual Column */}
-          <div className="lg:col-span-6 relative aspect-[4/3]">
+          <div className="lg:col-span-6 relative aspect-[4/3] reveal reveal-delay-2">
              <HeroVisual />
           </div>
         </div>
       </div>
 
       {/* Vibrant Ticker Tape Section */}
-      <div className="mt-24 relative py-8 border-y border-white/5 bg-white/[0.02] backdrop-blur-sm overflow-hidden group cursor-default">
+      <div className="mt-24 relative py-8 border-y border-white/5 bg-white/[0.02] backdrop-blur-sm overflow-hidden group cursor-default reveal reveal-delay-3">
         <div className="ticker-container">
-          {/* Duplicate slogans twice for seamless looping */}
           {[...Array(4)].map((_, i) => (
             <div key={i} className="flex items-center">
               {slogans.map((slogan, idx) => (
@@ -89,7 +88,6 @@ const Hero: React.FC<HeroProps> = ({ onAboutClick }) => {
           ))}
         </div>
         
-        {/* Subtle glass fade overlays for smoother transitions at edges */}
         <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#000810] to-transparent z-10 pointer-events-none"></div>
         <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#000810] to-transparent z-10 pointer-events-none"></div>
       </div>

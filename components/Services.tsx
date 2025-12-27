@@ -19,9 +19,9 @@ const services: ServiceGroup[] = [
     pillar: 'Executive Strategy',
     title: 'Strategic Consulting',
     items: [
-      { label: 'Growth Roadmaps', sub: 'Crafting 5-year vision plans.' },
-      { label: 'Performance Audits', sub: 'Identifying operational friction.' },
-      { label: 'Competitive Moat', sub: 'Defining unique market positioning.' }
+      { label: 'Crafting project-based roadmaps', sub: 'Custom roadmap generation.' },
+      { label: 'AI/Performance Audits', sub: 'Identifying operational friction and AI gaps.' },
+      { label: 'Strategic Moat', sub: 'AI Expertise + Process Improvement Certification + Fortune 100 Software Development Process Experience.' }
     ],
     image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800',
     icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
@@ -31,8 +31,8 @@ const services: ServiceGroup[] = [
     pillar: 'Strategy & Operations',
     title: 'Business Architecture',
     items: [
-      { label: 'SOPs & Process Maps', sub: 'Standardizing how the business breathes.' },
-      { label: 'Marketing Plans', sub: 'The roadmap for scaling.' },
+      { label: 'SOPs & Process Maps', sub: 'Providing Transparency, Clarity, and Standardization.' },
+      { label: 'Scaling Plans', sub: 'The roadmap to AI enhanced scaling.' },
       { label: 'Knowledge Bases', sub: 'Turning internal data into an asset.' }
     ],
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
@@ -44,7 +44,7 @@ const services: ServiceGroup[] = [
     title: 'Future-Proof Systems',
     items: [
       { label: 'Custom AI Chatbots', sub: 'Connecting knowledge to your site.' },
-      { label: 'AI Avatars', sub: 'Digital personas for branding.' },
+      { label: 'Video AI Avatars', sub: 'Digital personas for branding and customer engagement.' },
       { label: 'Web Redesign', sub: 'Modernizing UI/UX for conversion.' }
     ],
     image: 'https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=800',
@@ -55,9 +55,9 @@ const services: ServiceGroup[] = [
     pillar: 'Commerce & Growth',
     title: 'Revenue Acceleration',
     items: [
-      { label: 'E-commerce Stores', sub: 'Full setup for Shopify/Woo.' },
-      { label: 'Affiliate Marketing', sub: 'Automated sales networks.' },
-      { label: 'Landing Pages', sub: 'High-converting "Hero" pages.' }
+      { label: 'Custom Websites', sub: 'Galleries, Communities, E-commerce Stores' },
+      { label: 'Passive Income', sub: 'Automated passive income systems.' },
+      { label: 'Next Level Landing Pages', sub: 'High-converting "Hero" pages.' }
     ],
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',
     icon: <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -74,13 +74,16 @@ const Services: React.FC<ServicesProps> = ({ onContactClick }) => {
             <span className="gradient-text font-medium">Maximum Impact</span>
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-white/60">
-            We don't just advise; we transform. Our suite of consulting services unlocks the hidden potential within your organization.
+            We don't just advise; we transform. Our consulting services unlock the hidden power within your ideas. Our suite of products are designed to increase your productivity and enhance your quality of life.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {services.map((service) => (
-            <article key={service.id} className="group relative glass-card rounded-[2.5rem] p-6 hover:bg-white/[0.05] transition-all duration-500 border-white/5 overflow-hidden flex flex-col lg:flex-row gap-6">
+          {services.map((service, index) => (
+            <article 
+              key={service.id} 
+              className={`group relative glass-card rounded-[2.5rem] p-6 hover:bg-white/[0.05] transition-all duration-500 border-white/5 overflow-hidden flex flex-col lg:flex-row gap-6 reveal reveal-delay-${(index % 3) + 1}`}
+            >
               <div className="w-full lg:w-1/3 shrink-0">
                 <div className="relative aspect-square rounded-2xl overflow-hidden shadow-lg ring-1 ring-white/10">
                   <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
@@ -108,7 +111,7 @@ const Services: React.FC<ServicesProps> = ({ onContactClick }) => {
                 <div className="mt-4 pt-3 border-t border-white/5">
                   <button 
                     onClick={onContactClick}
-                    className="flex items-center gap-2 text-[10px] font-bold text-white group-hover:gap-3 transition-all uppercase tracking-widest"
+                    className="flex items-center gap-2 text-[10px] font-bold text-blue-400 group-hover:gap-3 transition-all uppercase tracking-widest"
                   >
                     Inquire Now
                     <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>

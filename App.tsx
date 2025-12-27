@@ -43,6 +43,35 @@ const App: React.FC = () => {
     }
   }, [currentPage]);
 
+  // Enhanced Scroll Reveal Observer
+  useEffect(() => {
+    // We use a timeout to ensure React has finished rendering the DOM nodes
+    // especially when switching from Home to About
+    const timer = setTimeout(() => {
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            // Once revealed, we can stop observing
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      const revealElements = document.querySelectorAll('.reveal');
+      revealElements.forEach(el => observer.observe(el));
+
+      return () => observer.disconnect();
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [currentPage]);
+
   // Handle hidden admin key trigger (Shift+A)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
