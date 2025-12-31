@@ -174,8 +174,12 @@ const ThankYou: React.FC<{ onClose: () => void }> = ({ onClose }) => {
           <span className="gradient-text">Gratitude</span>
         </h1>
 
-        <p className="text-white/50 max-w-4xl mx-auto text-sm md:text-xl uppercase tracking-[0.4em] font-light leading-tight">
+        <p className="text-white/50 max-w-4xl mx-auto text-sm md:text-xl uppercase tracking-[0.4em] font-light leading-tight mb-4">
           To the individuals and organizations that influenced our journey of growth and success.
+        </p>
+
+        <p className="text-blue-400 text-xs font-black uppercase tracking-[0.5em] animate-pulse">
+          Our formula for success: Passion + Focus + Follow Through
         </p>
       </div>
 

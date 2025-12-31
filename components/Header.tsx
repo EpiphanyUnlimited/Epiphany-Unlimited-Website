@@ -13,7 +13,6 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onThankYouClick, onConta
   const navItems = [
     { name: 'Services', href: '#services', id: 'services' },
     { name: 'Methodology', href: '#methodology', id: 'methodology' },
-    { name: 'Impact', href: '#impact', id: 'impact' },
     { name: 'Consultation', href: '#consultation', id: 'consultation' },
   ];
 

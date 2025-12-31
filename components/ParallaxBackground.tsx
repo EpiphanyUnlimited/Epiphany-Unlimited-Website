@@ -32,7 +32,7 @@ const ParallaxBackground: React.FC = () => {
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // Subtle Parallax Scroll Effect
+      // Reversed Parallax Scroll Effect (Changed from negative to positive)
       const ty = offsetY * 0.12;
 
       ctx.save();
@@ -135,7 +135,6 @@ const ParallaxBackground: React.FC = () => {
 
   return (
     <div className="fixed inset-0 pointer-events-none -z-20 overflow-hidden">
-      {/* Replicating the 'AnimatedLogo' background from the gratitude page for consistent branding */}
       <div 
         className="absolute inset-0 flex items-center justify-center opacity-[0.05] scale-[1.8] pointer-events-none blur-[2px]"
         style={{ transform: `translateY(${offsetY * 0.05}px) scale(1.8)` }}

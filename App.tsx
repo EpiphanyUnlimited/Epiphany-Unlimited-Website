@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Methodology from './components/Methodology';
-import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import ThankYou from './components/ThankYou';
@@ -12,6 +11,7 @@ import ContactForm from './components/ContactForm';
 import AdminDashboard from './components/AdminDashboard';
 import ParallaxBackground from './components/ParallaxBackground';
 import LegalOverlay from './components/LegalOverlay';
+import ProcessCarousel from './components/ProcessCarousel';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -19,12 +19,13 @@ const App: React.FC = () => {
   const [showThankYou, setShowThankYou] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [showProcess, setShowProcess] = useState(false);
   const [legalType, setLegalType] = useState<'privacy' | 'terms' | null>(null);
 
   useEffect(() => {
     if (currentPage === 'home') {
       const handleScroll = () => {
-        const sections = ['home', 'services', 'methodology', 'impact', 'consultation'];
+        const sections = ['home', 'services', 'methodology', 'consultation'];
         const scrollPos = window.scrollY + 100;
 
         for (const section of sections) {
@@ -45,8 +46,6 @@ const App: React.FC = () => {
 
   // Enhanced Scroll Reveal Observer
   useEffect(() => {
-    // We use a timeout to ensure React has finished rendering the DOM nodes
-    // especially when switching from Home to About
     const timer = setTimeout(() => {
       const observerOptions = {
         threshold: 0.1,
@@ -57,7 +56,6 @@ const App: React.FC = () => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('active');
-            // Once revealed, we can stop observing
             observer.unobserve(entry.target);
           }
         });
@@ -91,7 +89,10 @@ const App: React.FC = () => {
     return (
       <main>
         <div id="home">
-          <Hero onAboutClick={() => { setCurrentPage('about'); window.scrollTo(0, 0); }} />
+          <Hero 
+            onAboutClick={() => { setCurrentPage('about'); window.scrollTo(0, 0); }} 
+            onDiscoverClick={() => setShowProcess(true)}
+          />
         </div>
         
         <div id="services">
@@ -100,10 +101,6 @@ const App: React.FC = () => {
 
         <div id="methodology">
           <Methodology />
-        </div>
-
-        <div id="impact">
-          <Testimonials />
         </div>
 
         <div id="consultation">
@@ -118,6 +115,7 @@ const App: React.FC = () => {
       {showThankYou && <ThankYou onClose={() => setShowThankYou(false)} />}
       {showContact && <ContactForm onClose={() => setShowContact(false)} />}
       {showAdmin && <AdminDashboard onClose={() => setShowAdmin(false)} />}
+      {showProcess && <ProcessCarousel onClose={() => setShowProcess(false)} />}
       {legalType && <LegalOverlay type={legalType} onClose={() => setLegalType(null)} />}
       
       <ParallaxBackground />

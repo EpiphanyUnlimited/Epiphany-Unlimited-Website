@@ -58,7 +58,7 @@ const Methodology: React.FC = () => {
                 {/* Content Card */}
                 <div className={`flex-1 glass-card p-10 rounded-[2.5rem] border-white/5 hover:border-blue-500/20 transition-all group ${idx % 2 === 0 ? 'text-left' : 'text-left lg:text-right'}`}>
                   <h4 className="text-2xl font-geist font-bold mb-4 gradient-text">{step.title}</h4>
-                  <p className="text-white/60 leading-relaxed text-lg">{step.desc}</p>
+                  <p className="text-white font-medium leading-relaxed text-lg">{step.desc}</p>
                   
                   <div className={`mt-6 flex ${idx % 2 === 0 ? 'justify-start' : 'justify-start lg:justify-end'} gap-4 opacity-40 group-hover:opacity-80 transition-opacity`}>
                     <div className="h-1 w-12 bg-blue-500 rounded-full"></div>
@@ -67,15 +67,6 @@ const Methodology: React.FC = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-
-        <div className="mt-32 text-center reveal">
-          <div className="inline-block p-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl">
-            <button className="h-16 px-12 bg-black text-white font-bold rounded-xl hover:bg-transparent transition-all flex items-center gap-3">
-              Experience the Full Methodology
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-            </button>
           </div>
         </div>
       </div>

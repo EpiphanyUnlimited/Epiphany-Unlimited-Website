@@ -1,8 +1,5 @@
 {
   "name": "Epiphany Unlimited — Strategic Growth Consulting",
   "description": "A high-end strategic consulting website featuring an AI-powered Strategic Insight Engine and premium Apple-inspired UI.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
+  "requestFramePermissions": []
 }

@@ -3,9 +3,10 @@ import HeroVisual from './HeroVisual';
 
 interface HeroProps {
   onAboutClick: () => void;
+  onDiscoverClick: () => void;
 }
 
-const Hero: React.FC<HeroProps> = ({ onAboutClick }) => {
+const Hero: React.FC<HeroProps> = ({ onAboutClick, onDiscoverClick }) => {
   const slogans = [
     "Proven Strategies",
     "Intelligent Processes",
@@ -36,28 +37,30 @@ const Hero: React.FC<HeroProps> = ({ onAboutClick }) => {
           {/* Content Column */}
           <div className="lg:col-span-6 z-10 reveal">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 mb-6 backdrop-blur-xl">
-              <span className="h-2 w-2 rounded-full bg-blue-400 animate-pulse"></span>
-              Strategic Clarity • Accepting New Clients
+              <span className="h-2 w-2 rounded-full bg-blue-400"></span>
+              Strategic Architecture • Exponential Growth
             </div>
             
-            <h1 className="text-3xl sm:text-4xl lg:text-[3.2rem] font-geist font-light leading-[1.1] tracking-tighter mb-8">
+            <h1 className="text-3xl sm:text-4xl lg:text-[3.2rem] font-geist font-light leading-[1.1] tracking-tighter mb-8 text-white">
               <span className="text-[#000810] font-black whitespace-nowrap drop-shadow-[0_0_12px_rgba(255,255,255,0.8)]">Epiphany Unlimited</span> <br />
               <span className="text-gray-400">Turning Insight into</span> <br />
               <span className="gradient-text font-medium">Infinite Growth</span>
             </h1>
             
             <p className="max-w-xl text-lg sm:text-xl text-white/70 leading-relaxed mb-10">
-              We partner with visionary leaders to transform complex challenges into aha moments that are supported by clear, actionable strategies. Experience the epiphany that changes everything for your business or passion project.
+              We engineer clarity for visionary leaders. Through rigorous process optimization and creative intelligence, we transform operational friction into a state of effortless ease and flow.
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <button className="h-12 px-8 rounded-2xl bg-white text-black font-semibold hover:bg-white/90 transition-all flex items-center gap-2 shadow-lg shadow-white/5">
+              <button 
+                onClick={onDiscoverClick}
+                className="h-14 px-10 rounded-2xl bg-white text-black font-black hover:bg-white/90 transition-all flex items-center gap-3 shadow-2xl shadow-white/5 active:scale-95 uppercase tracking-widest text-xs"
+              >
                 Discover Process
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
               </button>
               <button 
                 onClick={onAboutClick}
-                className="h-12 px-8 rounded-2xl bg-white/5 border border-white/15 text-white font-medium hover:bg-white/10 transition-all backdrop-blur-md"
+                className="h-14 px-10 rounded-2xl bg-white/5 border border-white/15 text-white/80 font-bold hover:bg-white/10 transition-all backdrop-blur-md uppercase tracking-widest text-xs"
               >
                 About Us
               </button>

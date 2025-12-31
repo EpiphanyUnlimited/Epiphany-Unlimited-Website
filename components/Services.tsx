@@ -69,7 +69,7 @@ const Services: React.FC<ServicesProps> = ({ onContactClick }) => {
     <section id="services" className="py-20 bg-black/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-geist font-light tracking-tight mb-4">
+          <h2 className="text-4xl sm:text-5xl font-geist font-light tracking-tight mb-4 text-white">
             Services Designed for<br />
             <span className="gradient-text font-medium">Maximum Impact</span>
           </h2>
@@ -82,7 +82,7 @@ const Services: React.FC<ServicesProps> = ({ onContactClick }) => {
           {services.map((service, index) => (
             <article 
               key={service.id} 
-              className={`group relative glass-card rounded-[2.5rem] p-6 hover:bg-white/[0.05] transition-all duration-500 border-white/5 overflow-hidden flex flex-col lg:flex-row gap-6 reveal reveal-delay-${(index % 3) + 1}`}
+              className={`group relative glass-card rounded-[2.5rem] p-6 transition-all duration-500 overflow-hidden flex flex-col lg:flex-row gap-6 reveal reveal-delay-${(index % 3) + 1}`}
             >
               <div className="w-full lg:w-1/3 shrink-0">
                 <div className="relative aspect-square rounded-2xl overflow-hidden shadow-lg ring-1 ring-white/10">
@@ -97,21 +97,21 @@ const Services: React.FC<ServicesProps> = ({ onContactClick }) => {
               <div className="flex-grow flex flex-col justify-between py-1">
                 <div>
                   <div className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-1">Pillar: {service.pillar}</div>
-                  <h3 className="text-xl font-geist font-semibold mb-3 leading-tight">{service.title}</h3>
+                  <h3 className="text-xl font-geist font-black mb-3 leading-tight text-white">{service.title}</h3>
                   <ul className="space-y-1.5">
                     {service.items.map((item, i) => (
                       <li key={i} className="group/item">
-                        <div className="text-xs font-bold text-white/90">{item.label}</div>
-                        <div className="text-[10px] text-white/50">{item.sub}</div>
+                        <div className="text-xs font-black text-white">{item.label}</div>
+                        <div className="text-[10px] text-white/60 font-medium">{item.sub}</div>
                       </li>
                     ))}
                   </ul>
                 </div>
                 
-                <div className="mt-4 pt-3 border-t border-white/5">
+                <div className="mt-4 pt-3 border-t border-white/10">
                   <button 
                     onClick={onContactClick}
-                    className="flex items-center gap-2 text-[10px] font-bold text-blue-400 group-hover:gap-3 transition-all uppercase tracking-widest"
+                    className="flex items-center gap-2 text-[10px] font-black text-blue-400 group-hover:gap-3 transition-all uppercase tracking-widest"
                   >
                     Inquire Now
                     <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>

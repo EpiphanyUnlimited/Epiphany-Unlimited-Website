@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Epiphany Unlimited, Inc.
 
-# Run and deploy your AI Studio app
+A premium, strategic consulting platform engineered for visionary leaders.
 
-This contains everything you need to run your app locally.
+## Core Philosophy
+- **4E’s**: Everything is done empathetically, to empower, with enlightenment and enlivenment.
+- **F.L.O.W.**: Move "For Love Of Whatever" drives you.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qsk3Exd-NikzUDCK-f4xwoz2QKcjElGX
+## Technology Stack
+- **Frontend**: React (v19) with Tailwind CSS for high-fidelity animations.
+- **Intelligence**: Integrated Google Gemini API for strategic insight generation.
+- **Aesthetics**: Apple-inspired glassmorphism, parallax depth, and smooth-reveal typography.
 
-## Run Locally
+## Features
+- **Strategic Insight Engine**: AI-powered consultation hypothesis.
+- **Gratitude Portal**: Interactive name-cloud honoring key influences.
+- **Interactive About Page**: Philosophical deep-dive with responsive, high-impact cards.
+- **Admin Dashboard**: Secure management of inbound strategic leads.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+© 2024 Epiphany Unlimited, Inc. — Turning Insight into Infinite Growth.
