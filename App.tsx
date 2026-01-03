@@ -7,6 +7,7 @@ import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import ThankYou from './components/ThankYou';
 import About from './components/About';
+import Products from './components/Products';
 import ContactForm from './components/ContactForm';
 import AdminDashboard from './components/AdminDashboard';
 import ParallaxBackground from './components/ParallaxBackground';
@@ -15,7 +16,7 @@ import ProcessCarousel from './components/ProcessCarousel';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
-  const [currentPage, setCurrentPage] = useState<'home' | 'about'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'products'>('home');
   const [showThankYou, setShowThankYou] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
@@ -86,6 +87,10 @@ const App: React.FC = () => {
       return <About onBack={() => { setCurrentPage('home'); window.scrollTo(0, 0); }} />;
     }
 
+    if (currentPage === 'products') {
+      return <Products onBack={() => { setCurrentPage('home'); window.scrollTo(0, 0); }} />;
+    }
+
     return (
       <main>
         <div id="home">
@@ -131,6 +136,7 @@ const App: React.FC = () => {
         activeSection={activeSection} 
         onThankYouClick={() => setShowThankYou(true)}
         onContactClick={() => setShowContact(true)}
+        onProductsClick={() => { setCurrentPage('products'); window.scrollTo(0, 0); }}
         isHome={currentPage === 'home'}
         onGoHome={() => setCurrentPage('home')}
       />

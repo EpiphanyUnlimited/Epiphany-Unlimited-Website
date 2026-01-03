@@ -5,11 +5,19 @@ interface HeaderProps {
   activeSection: string;
   onThankYouClick: () => void;
   onContactClick: () => void;
+  onProductsClick: () => void;
   isHome: boolean;
   onGoHome: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ activeSection, onThankYouClick, onContactClick, isHome, onGoHome }) => {
+const Header: React.FC<HeaderProps> = ({ 
+  activeSection, 
+  onThankYouClick, 
+  onContactClick, 
+  onProductsClick,
+  isHome, 
+  onGoHome 
+}) => {
   const navItems = [
     { name: 'Services', href: '#services', id: 'services' },
     { name: 'Methodology', href: '#methodology', id: 'methodology' },
@@ -53,14 +61,12 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onThankYouClick, onConta
           )}
 
           <div className="flex items-center gap-3">
-            <a 
-              href="https://formwiz2.netlify.app/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hidden sm:inline-flex h-9 items-center justify-center rounded-xl bg-white/5 border border-white/10 px-4 text-sm font-medium hover:bg-white/10 transition-colors"
+            <button 
+              onClick={onProductsClick}
+              className="hidden sm:inline-flex h-9 items-center justify-center rounded-xl bg-white/5 border border-white/10 px-4 text-sm font-medium hover:bg-white/10 transition-colors uppercase tracking-widest text-[10px] font-black"
             >
-              FormWiz
-            </a>
+              Products
+            </button>
             <button 
               onClick={onContactClick}
               className="h-9 items-center justify-center rounded-xl bg-white px-5 text-sm font-semibold text-black hover:bg-white/90 transition-all duration-200"

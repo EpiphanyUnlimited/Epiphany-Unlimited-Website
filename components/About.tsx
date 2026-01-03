@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
@@ -12,7 +13,7 @@ const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
           Back to Home
         </button>
 
-        <article className="glass-card rounded-[3rem] p-8 md:p-16 relative overflow-hidden reveal">
+        <article className="glass-card rounded-[3rem] p-8 md:p-16 border-white/10 shadow-2xl relative overflow-hidden reveal">
           <div className="absolute top-0 right-0 p-12 opacity-5 pointer-events-none">
              <svg width="400" height="400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="0.05"><path d="M12 2v20M2 12h20M5.6 5.6l12.8 12.8M5.6 18.4L18.4 5.6" /></svg>
           </div>
@@ -31,6 +32,7 @@ const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
 
           <div className="space-y-16 text-lg md:text-xl leading-relaxed text-white/80 font-geist font-light">
             
+            {/* Philosophical Foundation */}
             <section className="space-y-8 reveal reveal-delay-2">
               <p>
                 At <strong>Epiphany Unlimited, Inc.</strong>, that line is more than a clever phrase—it is the lens for every decision, design, and deliverable. 
@@ -52,17 +54,19 @@ const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               <p className="reveal text-white/60">This philosophy keeps your projects human, intuitive, and aligned with what matters most to you.</p>
             </section>
 
+            {/* Quote Style Blurb */}
             <section className="py-12 reveal">
               <div className="relative p-12 md:p-14 bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10 rounded-[3rem] border border-white/10 text-center">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-8 py-3 bg-[#001a33] border border-white/20 rounded-full text-blue-400 text-xs md:text-sm font-black uppercase tracking-[0.5em] shadow-xl">
                   The Standard
                 </div>
-                <blockquote className="text-2xl md:text-3xl lg:text-4xl font-serif-brand italic text-white/90 leading-relaxed drop-shadow-md max-w-2xl mx-auto">
+                <blockquote className="text-2xl md:text-3xl lg:text-4xl font-serif-brand italic text-white leading-relaxed drop-shadow-md max-w-2xl mx-auto">
                   "Whether it is SaaS, done-for-you services, consultations, or digital products, these are the standards you can feel in every interaction."
                 </blockquote>
               </div>
             </section>
 
+            {/* Energy Conductors */}
             <section className="space-y-10 reveal">
               <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight border-b border-white/10 pb-6">What You Can Expect With Us</h2>
               <p className="text-white/60">Epiphany Unlimited is built on five <strong>energy conductors</strong> that shape how we work with every client and collaborator. These are our internal “energy KPIs” that tell us if something is truly in alignment:</p>
@@ -86,6 +90,7 @@ const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               </div>
             </section>
 
+            {/* Experience */}
             <section className="space-y-8 reveal">
               <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight border-b border-white/10 pb-6">Experience You Can Lean On</h2>
               <p>
@@ -118,10 +123,11 @@ const About: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               </div>
             </section>
 
+            {/* Success Formula */}
             <section className="reveal">
               <div className="p-12 md:p-20 bg-gradient-to-br from-blue-500/20 via-black/40 to-purple-500/20 rounded-[3rem] border border-white/10 text-center shadow-[0_0_80px_rgba(59,130,246,0.1)] relative overflow-hidden group">
                 <div className="absolute inset-0 blueprint-bg opacity-5 pointer-events-none"></div>
-                <h2 className="text-xs font-bold text-blue-400 uppercase tracking-[0.5em] mb-8">Our formula for success</h2>
+                <h2 className="text-xs font-bold text-blue-400 uppercase tracking-[0.5em] mb-8">Our Definition of Success</h2>
                 <p className="text-4xl md:text-6xl font-geist font-black tracking-tighter text-white mb-8 group-hover:scale-[1.02] transition-transform duration-700">
                   Passion + Focus + Follow Through = Success
                 </p>
