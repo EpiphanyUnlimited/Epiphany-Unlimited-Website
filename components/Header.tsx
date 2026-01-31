@@ -10,13 +10,13 @@ interface HeaderProps {
   onGoHome: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ 
-  activeSection, 
-  onThankYouClick, 
-  onContactClick, 
+const Header: React.FC<HeaderProps> = ({
+  activeSection,
+  onThankYouClick,
+  onContactClick,
   onProductsClick,
-  isHome, 
-  onGoHome 
+  isHome,
+  onGoHome
 }) => {
   const navItems = [
     { name: 'Services', href: '#services', id: 'services' },
@@ -37,20 +37,21 @@ const Header: React.FC<HeaderProps> = ({
           </button>
 
           {isHome && (
-            <nav className="hidden md:flex items-center gap-1">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                    activeSection === item.id 
-                      ? 'text-white bg-white/10' 
+            <nav className="flex items-center gap-2">
+              <div className="hidden md:flex items-center gap-1">
+                {navItems.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeSection === item.id
+                      ? 'text-white bg-white/10'
                       : 'text-white/60 hover:text-white hover:bg-white/5'
-                  }`}
-                >
-                  {item.name}
-                </a>
-              ))}
+                      }`}
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </div>
               <button
                 onClick={onThankYouClick}
                 className="px-4 py-2 rounded-full text-sm font-medium text-white/60 hover:text-white hover:bg-white/5 transition-all duration-300"
@@ -61,13 +62,14 @@ const Header: React.FC<HeaderProps> = ({
           )}
 
           <div className="flex items-center gap-3">
-            <button 
+            <button
               onClick={onProductsClick}
-              className="hidden sm:inline-flex h-9 items-center justify-center rounded-xl bg-white/5 border border-white/10 px-4 text-sm font-medium hover:bg-white/10 transition-colors uppercase tracking-widest text-[10px] font-black"
+              className="relative overflow-hidden inline-flex h-9 items-center justify-center rounded-xl bg-white/5 border border-white/10 px-4 text-sm font-medium hover:bg-white/10 transition-colors uppercase tracking-widest text-[10px] font-black group"
             >
-              Products
+              <div className="absolute inset-0 flex -translate-x-full animate-[shimmer_2s_infinite] before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent z-10"></div>
+              <span className="relative z-20">Products</span>
             </button>
-            <button 
+            <button
               onClick={onContactClick}
               className="h-9 items-center justify-center rounded-xl bg-white px-5 text-sm font-semibold text-black hover:bg-white/90 transition-all duration-200"
             >

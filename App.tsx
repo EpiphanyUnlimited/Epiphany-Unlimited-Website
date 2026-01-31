@@ -14,6 +14,8 @@ import ParallaxBackground from './components/ParallaxBackground';
 import LegalOverlay from './components/LegalOverlay';
 import ProcessCarousel from './components/ProcessCarousel';
 
+import IntroScrollSequence from './components/IntroScrollSequence';
+
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [currentPage, setCurrentPage] = useState<'home' | 'about' | 'products'>('home');
@@ -93,13 +95,16 @@ const App: React.FC = () => {
 
     return (
       <main>
+        {/* Intro Scroll Sequence - Only for Home Page */}
+        <IntroScrollSequence />
+
         <div id="home">
-          <Hero 
-            onAboutClick={() => { setCurrentPage('about'); window.scrollTo(0, 0); }} 
+          <Hero
+            onAboutClick={() => { setCurrentPage('about'); window.scrollTo(0, 0); }}
             onDiscoverClick={() => setShowProcess(true)}
           />
         </div>
-        
+
         <div id="services">
           <Services onContactClick={() => setShowContact(true)} />
         </div>
@@ -122,7 +127,7 @@ const App: React.FC = () => {
       {showAdmin && <AdminDashboard onClose={() => setShowAdmin(false)} />}
       {showProcess && <ProcessCarousel onClose={() => setShowProcess(false)} />}
       {legalType && <LegalOverlay type={legalType} onClose={() => setLegalType(null)} />}
-      
+
       <ParallaxBackground />
 
       {/* Dynamic Aura Background */}
@@ -132,15 +137,15 @@ const App: React.FC = () => {
         <div className="absolute -bottom-[15%] left-[15%] w-[50%] h-[50%] bg-blue-900/15 blur-[120px] rounded-full animate-pulse-slow delay-2000"></div>
       </div>
 
-      <Header 
-        activeSection={activeSection} 
+      <Header
+        activeSection={activeSection}
         onThankYouClick={() => setShowThankYou(true)}
         onContactClick={() => setShowContact(true)}
         onProductsClick={() => { setCurrentPage('products'); window.scrollTo(0, 0); }}
         isHome={currentPage === 'home'}
         onGoHome={() => setCurrentPage('home')}
       />
-      
+
       {renderContent()}
 
       <Footer onLegalClick={(type) => setLegalType(type)} />
