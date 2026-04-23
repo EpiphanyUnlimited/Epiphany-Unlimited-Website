@@ -73,8 +73,8 @@ const Pricing: React.FC<PricingProps> = ({ onContactClick }) => {
               </div>
               
               <div className="mb-8">
-                <span className="text-4xl font-geist font-black text-white">$15k</span>
-                <span className="text-white ml-2 font-medium">/ Month</span>
+                <span className="text-4xl font-geist font-black text-white">Custom</span>
+                <span className="text-white ml-2 font-medium">/ Contract</span>
               </div>
 
               <ul className="space-y-4 mb-10 flex-grow">

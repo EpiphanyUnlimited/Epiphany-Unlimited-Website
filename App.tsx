@@ -24,6 +24,7 @@ const App: React.FC = () => {
   const [showAdmin, setShowAdmin] = useState(false);
   const [showProcess, setShowProcess] = useState(false);
   const [legalType, setLegalType] = useState<'privacy' | 'terms' | null>(null);
+  const [showHeader, setShowHeader] = useState(false);
 
   useEffect(() => {
     if (currentPage === 'home') {
@@ -39,6 +40,13 @@ const App: React.FC = () => {
               break;
             }
           }
+        }
+
+        // Header visibility logic: Show after 400vh (IntroScrollSequence is 500vh)
+        if (window.scrollY > window.innerHeight * 4) {
+          setShowHeader(true);
+        } else {
+          setShowHeader(false);
         }
       };
 
@@ -137,14 +145,16 @@ const App: React.FC = () => {
         <div className="absolute -bottom-[15%] left-[15%] w-[50%] h-[50%] bg-blue-900/15 blur-[120px] rounded-full animate-pulse-slow delay-2000"></div>
       </div>
 
-      <Header
-        activeSection={activeSection}
-        onThankYouClick={() => setShowThankYou(true)}
-        onContactClick={() => setShowContact(true)}
-        onProductsClick={() => { setCurrentPage('products'); window.scrollTo(0, 0); }}
-        isHome={currentPage === 'home'}
-        onGoHome={() => setCurrentPage('home')}
-      />
+      <div className={`transition-all duration-700 fixed top-0 left-0 right-0 z-50 ${showHeader || currentPage !== 'home' ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'}`}>
+        <Header
+          activeSection={activeSection}
+          onThankYouClick={() => setShowThankYou(true)}
+          onContactClick={() => setShowContact(true)}
+          onProductsClick={() => { setCurrentPage('products'); window.scrollTo(0, 0); }}
+          isHome={currentPage === 'home'}
+          onGoHome={() => setCurrentPage('home')}
+        />
+      </div>
 
       {renderContent()}
 

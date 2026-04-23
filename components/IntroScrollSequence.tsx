@@ -7,6 +7,7 @@ const IntroScrollSequence: React.FC = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [opacity, setOpacity] = useState(1);
   const [isVisible, setIsVisible] = useState(true);
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const frameCount = 151; // Total number of frames
 
@@ -92,6 +93,7 @@ const IntroScrollSequence: React.FC = () => {
       // Calculate progress relative to the container scrolling into view
       let progress = -rect.top / (rect.height - window.innerHeight);
       progress = Math.max(0, Math.min(progress, 1));
+      setScrollProgress(progress);
 
       // 1. Determine Frame Index
       // Logic Update: Finish animation by 85% scroll so we can see the last frame
@@ -151,9 +153,25 @@ const IntroScrollSequence: React.FC = () => {
         />
 
         {/* Loading Indicator */}
+        {/* Loading Indicator */}
         {!isLoaded && (
           <div className="absolute inset-0 flex items-center justify-center bg-black text-white">
             <p className="animate-pulse">Loading Experience...</p>
+          </div>
+        )}
+        
+        {/* Scroll Indicator - Bouncing Message and Arrow */}
+        {isLoaded && scrollProgress < 1.0 && (
+          <div 
+            className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce transition-all duration-500"
+            style={{ opacity: 1 - Math.pow(scrollProgress, 4) }} // Faster fade out towards the end
+          >
+            <span className="text-white/60 text-[10px] uppercase tracking-[0.2em] font-black font-geist">Scroll</span>
+            <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-black/20 backdrop-blur-sm">
+              <svg className="w-4 h-4 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
           </div>
         )}
       </div>
