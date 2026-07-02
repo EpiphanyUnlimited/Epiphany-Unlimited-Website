@@ -1,0 +1,1334 @@
+{
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\About.tsx": {
+    "mtime": 1783030897.984133,
+    "hash": "7e1c5abf7e28eb4701d04ece225da712"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\App.tsx": {
+    "mtime": 1783030897.9861288,
+    "hash": "3bb36a8d5f180cea6f403b41a67c4673"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\index.tsx": {
+    "mtime": 1783030898.034072,
+    "hash": "cef163c098e647290954ff071007b973"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\types.ts": {
+    "mtime": 1783030899.1134489,
+    "hash": "ee684343a3107c57839822f3ef47854f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\vite.config.ts": {
+    "mtime": 1783030899.1164534,
+    "hash": "9c6ee70f884f3d59f32070b9ec420ef2"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\About.tsx": {
+    "mtime": 1783030897.9901278,
+    "hash": "feae534d547714a9412dc3847f3b9277"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\AdminDashboard.tsx": {
+    "mtime": 1783030897.9914594,
+    "hash": "f0b7e3b5f0614e392c52e3a71eaa0aa4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\AnimatedLogo.tsx": {
+    "mtime": 1783030897.9924576,
+    "hash": "9402edef55257289649b2edc4b95137b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\ContactForm.tsx": {
+    "mtime": 1783030897.9944594,
+    "hash": "9edc45271abb9b9c7d626b9492fef25e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\EpiphanyAI.tsx": {
+    "mtime": 1783030897.9954598,
+    "hash": "9d42a4e1205228b9d6fb4126d2adef76"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Footer.tsx": {
+    "mtime": 1783030897.9974597,
+    "hash": "c6bfee11a1ae16191b36e25b7cfca3f6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Header.tsx": {
+    "mtime": 1783030897.9999945,
+    "hash": "00aa71c41fbe71693800f0a48f5e322a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Hero.tsx": {
+    "mtime": 1783030898.002315,
+    "hash": "efe80d79ae1e4aadf7e090a3b3ab42a1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\HeroVisual.tsx": {
+    "mtime": 1783030898.0043137,
+    "hash": "cc0cb70e11a33eed2d46d1951996a56e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\IntroScrollSequence.tsx": {
+    "mtime": 1783030898.0083117,
+    "hash": "c801b8e9e8870eb52797bfdf9b681c17"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\LegalOverlay.tsx": {
+    "mtime": 1783030898.0105088,
+    "hash": "8b8a0eaa6b932305d71cd11df390ac1b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\LiveStrategyAI.tsx": {
+    "mtime": 1783030898.01167,
+    "hash": "f161118fae38e9e98c764cca13264adb"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Methodology.tsx": {
+    "mtime": 1783030898.0126708,
+    "hash": "df592a9aa31d6e2146b9373ed082a42a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\ParallaxBackground.tsx": {
+    "mtime": 1783030898.016673,
+    "hash": "9eea20fa6390b4a5283fe27c9ab64bbc"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Pricing.tsx": {
+    "mtime": 1783030898.0186863,
+    "hash": "d74550fcd7e14b6d3d3036eab4a73f09"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\ProcessCarousel.tsx": {
+    "mtime": 1783030898.0196884,
+    "hash": "27b854fa0c381e649f11700b4b6a408e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Products.tsx": {
+    "mtime": 1783030898.0220134,
+    "hash": "2317099acc5e4ebc40e9641e1c05d8a7"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Services.tsx": {
+    "mtime": 1783030898.0229876,
+    "hash": "d28050bc0f69f29b1eb5d5d02fafe7ad"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\Testimonials.tsx": {
+    "mtime": 1783030898.024989,
+    "hash": "54ae39b518f0f0d585da1b75e503e715"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\components\\ThankYou.tsx": {
+    "mtime": 1783030898.0269868,
+    "hash": "0ef80b05813eea641979244c05d28647"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\services\\geminiService.ts": {
+    "mtime": 1783030899.109877,
+    "hash": "cd39ee67ca7005061a6880572c293560"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\index.html": {
+    "mtime": 1783030898.0289857,
+    "hash": "a89b691c75e744d71441db46e04d6769"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\README.md": {
+    "mtime": 1783030897.9871356,
+    "hash": "76c88dc5ef87b61777f44ea122486409"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_000_delay-0.033s.jpg": {
+    "mtime": 1783030898.037248,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_001_delay-0.034s.jpg": {
+    "mtime": 1783030898.0397723,
+    "hash": "375049c3e49208f0db05d0cd575ae11a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_002_delay-0.033s.jpg": {
+    "mtime": 1783030898.0420778,
+    "hash": "a550bde83d8de6185b85bccf650bfeeb"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_003_delay-0.033s.jpg": {
+    "mtime": 1783030898.044582,
+    "hash": "a6eb2ca06c0dcb6f1873d3e6c48bb6dc"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_004_delay-0.034s.jpg": {
+    "mtime": 1783030898.0485957,
+    "hash": "06aa96e24f1eac77860319aadfc13fd6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_005_delay-0.033s.jpg": {
+    "mtime": 1783030898.0522687,
+    "hash": "a48e18fdd1a9a23305880c5604738bb6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_006_delay-0.033s.jpg": {
+    "mtime": 1783030898.0542698,
+    "hash": "347509b02ea64dd4f62969653b91edc3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_007_delay-0.034s.jpg": {
+    "mtime": 1783030898.0562866,
+    "hash": "6a9c1e87a3013f104c50b2517cfff177"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_008_delay-0.033s.jpg": {
+    "mtime": 1783030898.0588028,
+    "hash": "6332864d0b70659fb00fa39d38281237"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_009_delay-0.033s.jpg": {
+    "mtime": 1783030898.061135,
+    "hash": "da38f56564d0dc66bb4ac7627ac489d4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_010_delay-0.034s.jpg": {
+    "mtime": 1783030898.0641205,
+    "hash": "6034ce96faf47b4b391c75e8e536b393"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_011_delay-0.033s.jpg": {
+    "mtime": 1783030898.068928,
+    "hash": "4630a6ded1f64d5b68e441cdaffe4957"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_012_delay-0.033s.jpg": {
+    "mtime": 1783030898.0712502,
+    "hash": "e8d26cfae7faa6c671c01d05fc3cf2af"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_013_delay-0.034s.jpg": {
+    "mtime": 1783030898.0742483,
+    "hash": "8e29cbe2e48b08c8f0af982ae1c5c873"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_014_delay-0.033s.jpg": {
+    "mtime": 1783030898.077248,
+    "hash": "532ba82e1379f173cdbfb57b39d18c8e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_015_delay-0.033s.jpg": {
+    "mtime": 1783030898.0810735,
+    "hash": "8428e3589bc596ccbf08de19fd0a2fef"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_016_delay-0.034s.jpg": {
+    "mtime": 1783030898.0836103,
+    "hash": "8917ffe39f9adbbb4dd60c5b3ded021f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_017_delay-0.033s.jpg": {
+    "mtime": 1783030898.086637,
+    "hash": "d0c0840231cd5e45c6c79adf38cd8de5"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_018_delay-0.033s.jpg": {
+    "mtime": 1783030898.089623,
+    "hash": "8dd64f83e36733489fe5afd37a73a426"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_019_delay-0.034s.jpg": {
+    "mtime": 1783030898.0930958,
+    "hash": "b2e4cc2e9bbf311e7a17066c96a879d4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_020_delay-0.033s.jpg": {
+    "mtime": 1783030898.0960958,
+    "hash": "82f051279e17d48e2f09765dd6436625"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_021_delay-0.033s.jpg": {
+    "mtime": 1783030898.0990999,
+    "hash": "b0ecc2e9cf9cd14a0d18eddbd7c9d612"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_022_delay-0.034s.jpg": {
+    "mtime": 1783030898.1024718,
+    "hash": "d6b6e2773772b6c8c28a5553b82c529f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_023_delay-0.033s.jpg": {
+    "mtime": 1783030898.10547,
+    "hash": "7425a4df940b27e606d0dbe96675899c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_024_delay-0.033s.jpg": {
+    "mtime": 1783030898.107988,
+    "hash": "66c127f11a4b21c2f3bb2bd960e2858f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_025_delay-0.034s.jpg": {
+    "mtime": 1783030898.109997,
+    "hash": "86a56334cb04b4d1aca59306e22f7d94"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_026_delay-0.033s.jpg": {
+    "mtime": 1783030898.1152894,
+    "hash": "b349d9438224571724e436c121213e01"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_027_delay-0.033s.jpg": {
+    "mtime": 1783030898.1192887,
+    "hash": "61ae6c10c513bec9c85622379149e794"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_028_delay-0.034s.jpg": {
+    "mtime": 1783030898.121372,
+    "hash": "0aa2bd34baadb6bb4d3c2cd52049bd67"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_029_delay-0.033s.jpg": {
+    "mtime": 1783030898.1249797,
+    "hash": "cd695967d983f2a9b5b1c3d0ec17ef13"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_030_delay-0.033s.jpg": {
+    "mtime": 1783030898.1289904,
+    "hash": "6370c4e53ea1dd05431d6798645ecce8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_031_delay-0.034s.jpg": {
+    "mtime": 1783030898.1338072,
+    "hash": "e8c50a86e65f60316244e1457f3f41e8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_032_delay-0.033s.jpg": {
+    "mtime": 1783030898.1373389,
+    "hash": "e270612083852ea74581f45e0d9ffe01"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_033_delay-0.033s.jpg": {
+    "mtime": 1783030898.139337,
+    "hash": "5cd7ac497cd67c31364081c283de098b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_034_delay-0.034s.jpg": {
+    "mtime": 1783030898.143429,
+    "hash": "7267019b54b4927cd5d3512e0b050b6d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_035_delay-0.033s.jpg": {
+    "mtime": 1783030898.1473978,
+    "hash": "14e70813c445600daab88f3482af6468"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_036_delay-0.033s.jpg": {
+    "mtime": 1783030898.1512904,
+    "hash": "ba93b2ed165bce1b2eca1ff51fd87e61"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_037_delay-0.034s.jpg": {
+    "mtime": 1783030898.1548102,
+    "hash": "fddd9bb970bc0ff322c3b5252584231b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_038_delay-0.033s.jpg": {
+    "mtime": 1783030898.1573246,
+    "hash": "5ee8f9828eb3774617a9eb7a30c2a0e6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_039_delay-0.033s.jpg": {
+    "mtime": 1783030898.160505,
+    "hash": "80110b8ba960f371f88a5df6ae259d96"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_040_delay-0.034s.jpg": {
+    "mtime": 1783030898.1626725,
+    "hash": "01f7542586c237ebe5312c68eb8da048"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_041_delay-0.033s.jpg": {
+    "mtime": 1783030898.1681883,
+    "hash": "14c3f228ab58e93ca50998fe89a8c08b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_042_delay-0.033s.jpg": {
+    "mtime": 1783030898.1705196,
+    "hash": "363ae3ae4163dd58ffcd1199ad9ac323"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_043_delay-0.034s.jpg": {
+    "mtime": 1783030898.1745174,
+    "hash": "dde976ad37ddfb5c9dc21fe207c4bbe1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_044_delay-0.033s.jpg": {
+    "mtime": 1783030898.1790364,
+    "hash": "2569ca705dfe3e5e6c83383d2d2ea15c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_045_delay-0.033s.jpg": {
+    "mtime": 1783030898.1839197,
+    "hash": "5071cd9d79d80d69d676c03d725c43fe"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_046_delay-0.034s.jpg": {
+    "mtime": 1783030898.1869204,
+    "hash": "1a403239beae123e6c19f79a325cad6f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_047_delay-0.033s.jpg": {
+    "mtime": 1783030898.1908338,
+    "hash": "026686e9a5f07946ba829ecb6469a04a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_048_delay-0.033s.jpg": {
+    "mtime": 1783030898.1940222,
+    "hash": "ca9284d438c42d03b21094b1acb0571e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_049_delay-0.034s.jpg": {
+    "mtime": 1783030898.1960204,
+    "hash": "537c7c5574b82e14b19e507927afdeb8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_050_delay-0.033s.jpg": {
+    "mtime": 1783030898.2018404,
+    "hash": "5f6b84ba8091df0a4ffa6fac62041056"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_051_delay-0.033s.jpg": {
+    "mtime": 1783030898.2048368,
+    "hash": "f4aa314cbf25c8177dc625ec5175fdcf"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_052_delay-0.034s.jpg": {
+    "mtime": 1783030898.2068386,
+    "hash": "471311440a35d3172198cb5e84439232"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_053_delay-0.033s.jpg": {
+    "mtime": 1783030898.21016,
+    "hash": "581605723b85cfa002095c7cdeacb7ef"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_054_delay-0.033s.jpg": {
+    "mtime": 1783030898.21216,
+    "hash": "ee3d955fb965b92baa8f99565a94f721"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_055_delay-0.034s.jpg": {
+    "mtime": 1783030898.2171621,
+    "hash": "964f2a11a675a79cc2447c137c9679e9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_056_delay-0.033s.jpg": {
+    "mtime": 1783030898.220162,
+    "hash": "ac0f08c58109b59cf6a949db2e428266"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_057_delay-0.033s.jpg": {
+    "mtime": 1783030898.2230043,
+    "hash": "d9c868b844e7f242d8a7603810b9d519"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_058_delay-0.034s.jpg": {
+    "mtime": 1783030898.226015,
+    "hash": "254f92f7a26214e9df2a280c5bc5078e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_059_delay-0.033s.jpg": {
+    "mtime": 1783030898.2300158,
+    "hash": "ca1bc183a5fbe6b297134bafa7755e09"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_060_delay-0.033s.jpg": {
+    "mtime": 1783030898.2348518,
+    "hash": "8bf548ff8ff239dab6da047b6670cf71"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_061_delay-0.034s.jpg": {
+    "mtime": 1783030898.238374,
+    "hash": "f2efb852362ce4f0d5c159ed6bc06f51"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_062_delay-0.033s.jpg": {
+    "mtime": 1783030898.2417536,
+    "hash": "aac9e6d87ef0aff936a2dbf6fa057cbf"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_063_delay-0.033s.jpg": {
+    "mtime": 1783030898.2447531,
+    "hash": "e8af04383d57cac74d5d31f42a84ff56"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_064_delay-0.034s.jpg": {
+    "mtime": 1783030898.2472746,
+    "hash": "7a54e5a3a81e68cbbbb4d2aee8aa594c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_065_delay-0.033s.jpg": {
+    "mtime": 1783030898.253569,
+    "hash": "3ff872b5a7e8ac52f0eed4a5a9b0a630"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_066_delay-0.033s.jpg": {
+    "mtime": 1783030898.2570782,
+    "hash": "7d372fc149864d0d3062a2cf6db83105"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_067_delay-0.034s.jpg": {
+    "mtime": 1783030898.2590885,
+    "hash": "568c2131f73515fd788188a6ab713176"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_068_delay-0.033s.jpg": {
+    "mtime": 1783030898.261425,
+    "hash": "ea7a839de32a238f5b9fb3dd4f7a6d0d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_069_delay-0.033s.jpg": {
+    "mtime": 1783030898.266428,
+    "hash": "1bc1aca376d6087d4ef0f050549097aa"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_070_delay-0.034s.jpg": {
+    "mtime": 1783030898.26944,
+    "hash": "c6810579cc2097fc2f5d582114ad8210"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_071_delay-0.033s.jpg": {
+    "mtime": 1783030898.2728024,
+    "hash": "d2d05effe6cdba6d289af453b06ee317"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_072_delay-0.033s.jpg": {
+    "mtime": 1783030898.274799,
+    "hash": "c84455c206d8696b1d7ceb388aec4da3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_073_delay-0.034s.jpg": {
+    "mtime": 1783030898.2778018,
+    "hash": "661b4f1a8527e1e2a5fcafd632561582"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_074_delay-0.033s.jpg": {
+    "mtime": 1783030898.2850263,
+    "hash": "1e6c2c60f9dbcab066a9703f8eca7aa2"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_075_delay-0.033s.jpg": {
+    "mtime": 1783030898.2880256,
+    "hash": "9e75099b4bbf447236ff4e71634a307e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_076_delay-0.034s.jpg": {
+    "mtime": 1783030898.2910564,
+    "hash": "d28ec9b17733e444d43c060eddaf5d64"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_077_delay-0.033s.jpg": {
+    "mtime": 1783030898.294595,
+    "hash": "3aace88dda6ff9ea698a2e8aa899683e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_078_delay-0.033s.jpg": {
+    "mtime": 1783030898.2976103,
+    "hash": "fad4e5ab8d64949fe1fe18c942219490"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_079_delay-0.034s.jpg": {
+    "mtime": 1783030898.302135,
+    "hash": "e5a7d2518de6e6941f8e9679d6e9859f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_080_delay-0.033s.jpg": {
+    "mtime": 1783030898.3051329,
+    "hash": "39799836d06f66793f0d16c01842d23f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_081_delay-0.033s.jpg": {
+    "mtime": 1783030898.3076453,
+    "hash": "aa55ce3e348e80424909aa36ede8ecd0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_082_delay-0.034s.jpg": {
+    "mtime": 1783030898.3110905,
+    "hash": "80ce92091b95d2d0afb3ae59865f30d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_083_delay-0.033s.jpg": {
+    "mtime": 1783030898.315089,
+    "hash": "a9941659704f5aa8654a85634e04c7e1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_084_delay-0.033s.jpg": {
+    "mtime": 1783030898.3190885,
+    "hash": "30cc0af23f2d89ca1311559a15dc1358"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_085_delay-0.034s.jpg": {
+    "mtime": 1783030898.321088,
+    "hash": "87327f13a517ef770a10843ca8f08965"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_086_delay-0.033s.jpg": {
+    "mtime": 1783030898.3248868,
+    "hash": "eeac8871930bd6229ce1363c155d8e39"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_087_delay-0.033s.jpg": {
+    "mtime": 1783030898.327901,
+    "hash": "6d71e21ea7de75145018f753c2a6069a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_088_delay-0.034s.jpg": {
+    "mtime": 1783030898.3328385,
+    "hash": "34b9845a40c7ade7b19670fd76f6df9e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_089_delay-0.033s.jpg": {
+    "mtime": 1783030898.337388,
+    "hash": "b71677333a617c998c914cf2e3eb34e5"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_090_delay-0.033s.jpg": {
+    "mtime": 1783030898.340598,
+    "hash": "accb0da587da47f6e50199d0f9ac7d94"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_091_delay-0.034s.jpg": {
+    "mtime": 1783030898.3437166,
+    "hash": "46d36294851961ad86a293712df03b16"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_092_delay-0.033s.jpg": {
+    "mtime": 1783030898.3467188,
+    "hash": "24f6ddfb64019ff5b1866b8bdb1e8aad"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_093_delay-0.033s.jpg": {
+    "mtime": 1783030898.3521307,
+    "hash": "a4e9aec5db49cc4f4cf472142283ea31"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_094_delay-0.034s.jpg": {
+    "mtime": 1783030898.355142,
+    "hash": "e49d9b8d7675c9140f48784e5e4eccd9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_095_delay-0.033s.jpg": {
+    "mtime": 1783030898.358142,
+    "hash": "40337de8253f5ce6b783be05940b2984"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_096_delay-0.033s.jpg": {
+    "mtime": 1783030898.360535,
+    "hash": "342578311b7e89a4f1bd3ffcbf632009"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_097_delay-0.034s.jpg": {
+    "mtime": 1783030898.3655336,
+    "hash": "93ebf6a7fda74bfe2b5379dded2f24b0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_098_delay-0.033s.jpg": {
+    "mtime": 1783030898.3695679,
+    "hash": "802deac3ef2413de57073329f51e4afa"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_099_delay-0.033s.jpg": {
+    "mtime": 1783030898.372953,
+    "hash": "9d93d791c8d56954f7c351d0b389d7d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_100_delay-0.034s.jpg": {
+    "mtime": 1783030898.3759537,
+    "hash": "63f954ae791b0f7f015974c1475070e3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_101_delay-0.033s.jpg": {
+    "mtime": 1783030898.378951,
+    "hash": "fff84942e1568395f24dea9a01307345"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_102_delay-0.033s.jpg": {
+    "mtime": 1783030898.3838234,
+    "hash": "ecd8439de2a078de5557c7beeb76cfd6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_103_delay-0.034s.jpg": {
+    "mtime": 1783030898.3868196,
+    "hash": "bac6ba840ce1a07d5efce079caf01353"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_104_delay-0.033s.jpg": {
+    "mtime": 1783030898.3901355,
+    "hash": "f81452f3dd98ada92d2ace2f2a6eb031"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_105_delay-0.033s.jpg": {
+    "mtime": 1783030898.3931324,
+    "hash": "515eaa8e53897f0b93610dc64d2824b9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_106_delay-0.034s.jpg": {
+    "mtime": 1783030898.395133,
+    "hash": "fad4299af84d98a73c6bbbdb30d2600b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_107_delay-0.033s.jpg": {
+    "mtime": 1783030898.399665,
+    "hash": "87b344613a11bcda46c55873a0e34da1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_108_delay-0.033s.jpg": {
+    "mtime": 1783030898.4028816,
+    "hash": "89264058c48db9bc09fbf84e6cf4bcec"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_109_delay-0.034s.jpg": {
+    "mtime": 1783030898.4048831,
+    "hash": "576abbe13c3258cd43f5558b3e75cd4d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_110_delay-0.033s.jpg": {
+    "mtime": 1783030898.4078832,
+    "hash": "c382a89837ca4f282ccf4852309b0f2e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_111_delay-0.033s.jpg": {
+    "mtime": 1783030898.4112182,
+    "hash": "769c4ead9009267b039beeb8f2e888d9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_112_delay-0.034s.jpg": {
+    "mtime": 1783030898.4132173,
+    "hash": "08135449ad75dd6d0688c4d89b5e9ef3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_113_delay-0.033s.jpg": {
+    "mtime": 1783030898.4182334,
+    "hash": "8dede0440a54bbb26ea370d28b82217f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_114_delay-0.033s.jpg": {
+    "mtime": 1783030898.420818,
+    "hash": "d70fb091ed77a9a1c69e94643531329c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_115_delay-0.034s.jpg": {
+    "mtime": 1783030898.4230077,
+    "hash": "840802560c61c325da96a16a4c429cb0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_116_delay-0.033s.jpg": {
+    "mtime": 1783030898.4260075,
+    "hash": "d7265e4ffbe957e42f65fa2d16ac25e3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_117_delay-0.033s.jpg": {
+    "mtime": 1783030898.4280083,
+    "hash": "f29c28e6a33be81b5cb4f61af53997c1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_118_delay-0.034s.jpg": {
+    "mtime": 1783030898.4328108,
+    "hash": "1b3bede428d48f87552df562c1805b44"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_119_delay-0.033s.jpg": {
+    "mtime": 1783030898.435824,
+    "hash": "b73070926019f9cc793f99d84fb36960"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_120_delay-0.033s.jpg": {
+    "mtime": 1783030898.4383492,
+    "hash": "9fa2e49cf990b4a1faa3d688b8c92d9b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_121_delay-0.034s.jpg": {
+    "mtime": 1783030898.4416332,
+    "hash": "69632c6d6f896e29ab1ca992cb3a1c71"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_122_delay-0.033s.jpg": {
+    "mtime": 1783030898.443632,
+    "hash": "0df3fc3a80f45c3049b02ff985549a4a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_123_delay-0.033s.jpg": {
+    "mtime": 1783030898.4461403,
+    "hash": "80d6e3c90b4dbe68686a8560ce8e6c81"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_124_delay-0.034s.jpg": {
+    "mtime": 1783030898.4508638,
+    "hash": "12a1bf5dee9f59d2942038c16579aa03"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_125_delay-0.033s.jpg": {
+    "mtime": 1783030898.4546974,
+    "hash": "2d25d164bc5f51b1d647529a5d6e0ad7"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_126_delay-0.033s.jpg": {
+    "mtime": 1783030898.4572194,
+    "hash": "04e8c48a7afa8721275f502ce8f24fbc"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_127_delay-0.034s.jpg": {
+    "mtime": 1783030898.4602363,
+    "hash": "75df63b81a22f32c69c7f679176f9217"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_128_delay-0.033s.jpg": {
+    "mtime": 1783030898.4630597,
+    "hash": "0c1e2309b28d48aecea0e6e40df10583"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_129_delay-0.033s.jpg": {
+    "mtime": 1783030898.4670627,
+    "hash": "12273efdca7492284f60c7c8cbc8f2e8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_130_delay-0.034s.jpg": {
+    "mtime": 1783030898.4705865,
+    "hash": "6e5b9df941fd6a94d0c41011201367c0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_131_delay-0.033s.jpg": {
+    "mtime": 1783030898.4738657,
+    "hash": "68f083d5260913d41b7503369d0007ed"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_132_delay-0.033s.jpg": {
+    "mtime": 1783030898.476866,
+    "hash": "0e9550723921d783aeebe12149afde8a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_133_delay-0.034s.jpg": {
+    "mtime": 1783030898.480185,
+    "hash": "f07ca5cc78aa739b4b95c4581e2d564e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_134_delay-0.033s.jpg": {
+    "mtime": 1783030898.4857075,
+    "hash": "f71acc004c61cbfc17fb07552f3d1749"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_135_delay-0.033s.jpg": {
+    "mtime": 1783030898.4887073,
+    "hash": "68b879f8f4536d709da2b66a5ffa0fec"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_136_delay-0.034s.jpg": {
+    "mtime": 1783030898.492015,
+    "hash": "40edabea9f6394ea6a6d308f345b5013"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_137_delay-0.033s.jpg": {
+    "mtime": 1783030898.4955237,
+    "hash": "6d0cca0e86b5bfb4ef63b91740550f20"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_138_delay-0.033s.jpg": {
+    "mtime": 1783030898.500528,
+    "hash": "37750cbb1155bb4a919199b45e9823f4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_139_delay-0.034s.jpg": {
+    "mtime": 1783030898.5038285,
+    "hash": "b8ae589789da83143634017a891c6101"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_140_delay-0.033s.jpg": {
+    "mtime": 1783030898.5068274,
+    "hash": "90ee1aee75fa3e0293f7e84d44a13ad1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_141_delay-0.033s.jpg": {
+    "mtime": 1783030898.508824,
+    "hash": "d645d28258d7fc7a7c474d3ef78a2dd2"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_142_delay-0.034s.jpg": {
+    "mtime": 1783030898.5121715,
+    "hash": "bfee93bd7962627ac15ec1a8e54ece42"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_143_delay-0.033s.jpg": {
+    "mtime": 1783030898.5131698,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_144_delay-0.033s.jpg": {
+    "mtime": 1783030898.5171795,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_145_delay-0.034s.jpg": {
+    "mtime": 1783030898.5191846,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_146_delay-0.033s.jpg": {
+    "mtime": 1783030898.5204885,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_147_delay-0.033s.jpg": {
+    "mtime": 1783030898.5224886,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_148_delay-0.034s.jpg": {
+    "mtime": 1783030898.5235026,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_149_delay-0.033s.jpg": {
+    "mtime": 1783030898.525499,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\logo_animation\\frame_150_delay-0.033s.jpg": {
+    "mtime": 1783030898.5267017,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\favicon.png": {
+    "mtime": 1783030898.542713,
+    "hash": "b1afa914b9227476459e057e97f034f4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\001.jpg": {
+    "mtime": 1783030898.5533423,
+    "hash": "2684da1db0601d86823f8cdeb899c340"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\001.png": {
+    "mtime": 1783030898.5681942,
+    "hash": "764fcf79347d1d4a6f58fa0138306156"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\002.jpg": {
+    "mtime": 1783030898.5702145,
+    "hash": "375049c3e49208f0db05d0cd575ae11a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\003.jpg": {
+    "mtime": 1783030898.5724556,
+    "hash": "a550bde83d8de6185b85bccf650bfeeb"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\004.jpg": {
+    "mtime": 1783030898.5754552,
+    "hash": "a6eb2ca06c0dcb6f1873d3e6c48bb6dc"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\005.jpg": {
+    "mtime": 1783030898.5774732,
+    "hash": "06aa96e24f1eac77860319aadfc13fd6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\006.jpg": {
+    "mtime": 1783030898.5819025,
+    "hash": "a48e18fdd1a9a23305880c5604738bb6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\007.jpg": {
+    "mtime": 1783030898.5854306,
+    "hash": "347509b02ea64dd4f62969653b91edc3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\008.jpg": {
+    "mtime": 1783030898.5884364,
+    "hash": "6a9c1e87a3013f104c50b2517cfff177"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\009.jpg": {
+    "mtime": 1783030898.591784,
+    "hash": "6332864d0b70659fb00fa39d38281237"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\010.jpg": {
+    "mtime": 1783030898.5957847,
+    "hash": "da38f56564d0dc66bb4ac7627ac489d4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\011.jpg": {
+    "mtime": 1783030898.5987883,
+    "hash": "6034ce96faf47b4b391c75e8e536b393"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\012.jpg": {
+    "mtime": 1783030898.602595,
+    "hash": "4630a6ded1f64d5b68e441cdaffe4957"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\013.jpg": {
+    "mtime": 1783030898.605605,
+    "hash": "e8d26cfae7faa6c671c01d05fc3cf2af"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\014.jpg": {
+    "mtime": 1783030898.6096084,
+    "hash": "8e29cbe2e48b08c8f0af982ae1c5c873"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\015.jpg": {
+    "mtime": 1783030898.6129105,
+    "hash": "532ba82e1379f173cdbfb57b39d18c8e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\016.jpg": {
+    "mtime": 1783030898.6159105,
+    "hash": "8428e3589bc596ccbf08de19fd0a2fef"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\017.jpg": {
+    "mtime": 1783030898.6199193,
+    "hash": "8917ffe39f9adbbb4dd60c5b3ded021f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\018.jpg": {
+    "mtime": 1783030898.622233,
+    "hash": "d0c0840231cd5e45c6c79adf38cd8de5"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\019.jpg": {
+    "mtime": 1783030898.6252337,
+    "hash": "8dd64f83e36733489fe5afd37a73a426"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\020.jpg": {
+    "mtime": 1783030898.6282341,
+    "hash": "b2e4cc2e9bbf311e7a17066c96a879d4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\021.jpg": {
+    "mtime": 1783030898.6317854,
+    "hash": "82f051279e17d48e2f09765dd6436625"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\022.jpg": {
+    "mtime": 1783030898.63582,
+    "hash": "b0ecc2e9cf9cd14a0d18eddbd7c9d612"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\023.jpg": {
+    "mtime": 1783030898.6388323,
+    "hash": "d6b6e2773772b6c8c28a5553b82c529f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\024.jpg": {
+    "mtime": 1783030898.6411688,
+    "hash": "7425a4df940b27e606d0dbe96675899c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\025.jpg": {
+    "mtime": 1783030898.6441698,
+    "hash": "66c127f11a4b21c2f3bb2bd960e2858f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\026.jpg": {
+    "mtime": 1783030898.6486795,
+    "hash": "86a56334cb04b4d1aca59306e22f7d94"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\027.jpg": {
+    "mtime": 1783030898.6522005,
+    "hash": "b349d9438224571724e436c121213e01"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\028.jpg": {
+    "mtime": 1783030898.655198,
+    "hash": "61ae6c10c513bec9c85622379149e794"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\029.jpg": {
+    "mtime": 1783030898.6581993,
+    "hash": "0aa2bd34baadb6bb4d3c2cd52049bd67"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\030.jpg": {
+    "mtime": 1783030898.661177,
+    "hash": "cd695967d983f2a9b5b1c3d0ec17ef13"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\031.jpg": {
+    "mtime": 1783030898.6664684,
+    "hash": "6370c4e53ea1dd05431d6798645ecce8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\032.jpg": {
+    "mtime": 1783030898.6694973,
+    "hash": "e8c50a86e65f60316244e1457f3f41e8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\033.jpg": {
+    "mtime": 1783030898.6728158,
+    "hash": "e270612083852ea74581f45e0d9ffe01"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\034.jpg": {
+    "mtime": 1783030898.675814,
+    "hash": "5cd7ac497cd67c31364081c283de098b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\035.jpg": {
+    "mtime": 1783030898.6788158,
+    "hash": "7267019b54b4927cd5d3512e0b050b6d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\036.jpg": {
+    "mtime": 1783030898.6820958,
+    "hash": "14e70813c445600daab88f3482af6468"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\037.jpg": {
+    "mtime": 1783030898.685565,
+    "hash": "ba93b2ed165bce1b2eca1ff51fd87e61"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\038.jpg": {
+    "mtime": 1783030898.6875653,
+    "hash": "fddd9bb970bc0ff322c3b5252584231b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\039.jpg": {
+    "mtime": 1783030898.6909025,
+    "hash": "5ee8f9828eb3774617a9eb7a30c2a0e6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\040.jpg": {
+    "mtime": 1783030898.6928992,
+    "hash": "80110b8ba960f371f88a5df6ae259d96"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\041.jpg": {
+    "mtime": 1783030898.6964238,
+    "hash": "01f7542586c237ebe5312c68eb8da048"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\042.jpg": {
+    "mtime": 1783030898.6994293,
+    "hash": "14c3f228ab58e93ca50998fe89a8c08b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\043.jpg": {
+    "mtime": 1783030898.7047007,
+    "hash": "363ae3ae4163dd58ffcd1199ad9ac323"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\044.jpg": {
+    "mtime": 1783030898.7077024,
+    "hash": "dde976ad37ddfb5c9dc21fe207c4bbe1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\045.jpg": {
+    "mtime": 1783030898.710914,
+    "hash": "2569ca705dfe3e5e6c83383d2d2ea15c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\046.jpg": {
+    "mtime": 1783030898.713137,
+    "hash": "5071cd9d79d80d69d676c03d725c43fe"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\047.jpg": {
+    "mtime": 1783030898.716124,
+    "hash": "1a403239beae123e6c19f79a325cad6f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\048.jpg": {
+    "mtime": 1783030898.7201257,
+    "hash": "026686e9a5f07946ba829ecb6469a04a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\049.jpg": {
+    "mtime": 1783030898.7233455,
+    "hash": "ca9284d438c42d03b21094b1acb0571e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\050.jpg": {
+    "mtime": 1783030898.725857,
+    "hash": "537c7c5574b82e14b19e507927afdeb8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\051.jpg": {
+    "mtime": 1783030898.728869,
+    "hash": "5f6b84ba8091df0a4ffa6fac62041056"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\052.jpg": {
+    "mtime": 1783030898.733657,
+    "hash": "f4aa314cbf25c8177dc625ec5175fdcf"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\053.jpg": {
+    "mtime": 1783030898.7371917,
+    "hash": "471311440a35d3172198cb5e84439232"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\054.jpg": {
+    "mtime": 1783030898.7391927,
+    "hash": "581605723b85cfa002095c7cdeacb7ef"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\055.jpg": {
+    "mtime": 1783030898.7425218,
+    "hash": "ee3d955fb965b92baa8f99565a94f721"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\056.jpg": {
+    "mtime": 1783030898.7445202,
+    "hash": "964f2a11a675a79cc2447c137c9679e9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\057.jpg": {
+    "mtime": 1783030898.7529142,
+    "hash": "ac0f08c58109b59cf6a949db2e428266"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\058.jpg": {
+    "mtime": 1783030898.7554338,
+    "hash": "d9c868b844e7f242d8a7603810b9d519"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\059.jpg": {
+    "mtime": 1783030898.7589593,
+    "hash": "254f92f7a26214e9df2a280c5bc5078e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\060.jpg": {
+    "mtime": 1783030898.7612896,
+    "hash": "ca1bc183a5fbe6b297134bafa7755e09"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\061.jpg": {
+    "mtime": 1783030898.7672942,
+    "hash": "8bf548ff8ff239dab6da047b6670cf71"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\062.jpg": {
+    "mtime": 1783030898.7703068,
+    "hash": "f2efb852362ce4f0d5c159ed6bc06f51"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\063.jpg": {
+    "mtime": 1783030898.773602,
+    "hash": "aac9e6d87ef0aff936a2dbf6fa057cbf"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\064.jpg": {
+    "mtime": 1783030898.775601,
+    "hash": "e8af04383d57cac74d5d31f42a84ff56"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\065.jpg": {
+    "mtime": 1783030898.7786016,
+    "hash": "7a54e5a3a81e68cbbbb4d2aee8aa594c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\066.jpg": {
+    "mtime": 1783030898.7831843,
+    "hash": "3ff872b5a7e8ac52f0eed4a5a9b0a630"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\067.jpg": {
+    "mtime": 1783030898.7872763,
+    "hash": "7d372fc149864d0d3062a2cf6db83105"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\068.jpg": {
+    "mtime": 1783030898.7904227,
+    "hash": "568c2131f73515fd788188a6ab713176"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\069.jpg": {
+    "mtime": 1783030898.7936985,
+    "hash": "ea7a839de32a238f5b9fb3dd4f7a6d0d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\070.jpg": {
+    "mtime": 1783030898.7957263,
+    "hash": "1bc1aca376d6087d4ef0f050549097aa"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\071.jpg": {
+    "mtime": 1783030898.800751,
+    "hash": "c6810579cc2097fc2f5d582114ad8210"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\072.jpg": {
+    "mtime": 1783030898.8029838,
+    "hash": "d2d05effe6cdba6d289af453b06ee317"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\073.jpg": {
+    "mtime": 1783030898.8059816,
+    "hash": "c84455c206d8696b1d7ceb388aec4da3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\074.jpg": {
+    "mtime": 1783030898.8094912,
+    "hash": "661b4f1a8527e1e2a5fcafd632561582"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\075.jpg": {
+    "mtime": 1783030898.8118148,
+    "hash": "1e6c2c60f9dbcab066a9703f8eca7aa2"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\076.jpg": {
+    "mtime": 1783030898.8168178,
+    "hash": "9e75099b4bbf447236ff4e71634a307e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\077.jpg": {
+    "mtime": 1783030898.819825,
+    "hash": "d28ec9b17733e444d43c060eddaf5d64"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\078.jpg": {
+    "mtime": 1783030898.8231134,
+    "hash": "3aace88dda6ff9ea698a2e8aa899683e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\079.jpg": {
+    "mtime": 1783030898.8261116,
+    "hash": "fad4e5ab8d64949fe1fe18c942219490"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\080.jpg": {
+    "mtime": 1783030898.828112,
+    "hash": "e5a7d2518de6e6941f8e9679d6e9859f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\081.jpg": {
+    "mtime": 1783030898.833023,
+    "hash": "39799836d06f66793f0d16c01842d23f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\082.jpg": {
+    "mtime": 1783030898.8365633,
+    "hash": "aa55ce3e348e80424909aa36ede8ecd0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\083.jpg": {
+    "mtime": 1783030898.8405633,
+    "hash": "80ce92091b95d2d0afb3ae59865f30d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\084.jpg": {
+    "mtime": 1783030898.8429134,
+    "hash": "a9941659704f5aa8654a85634e04c7e1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\085.jpg": {
+    "mtime": 1783030898.848823,
+    "hash": "30cc0af23f2d89ca1311559a15dc1358"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\086.jpg": {
+    "mtime": 1783030898.8532763,
+    "hash": "87327f13a517ef770a10843ca8f08965"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\087.jpg": {
+    "mtime": 1783030898.8572931,
+    "hash": "eeac8871930bd6229ce1363c155d8e39"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\088.jpg": {
+    "mtime": 1783030898.8606663,
+    "hash": "6d71e21ea7de75145018f753c2a6069a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\089.jpg": {
+    "mtime": 1783030898.8686817,
+    "hash": "34b9845a40c7ade7b19670fd76f6df9e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\090.jpg": {
+    "mtime": 1783030898.8732817,
+    "hash": "b71677333a617c998c914cf2e3eb34e5"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\091.jpg": {
+    "mtime": 1783030898.8762858,
+    "hash": "accb0da587da47f6e50199d0f9ac7d94"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\092.jpg": {
+    "mtime": 1783030898.8792853,
+    "hash": "46d36294851961ad86a293712df03b16"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\093.jpg": {
+    "mtime": 1783030898.8853917,
+    "hash": "24f6ddfb64019ff5b1866b8bdb1e8aad"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\094.jpg": {
+    "mtime": 1783030898.88939,
+    "hash": "a4e9aec5db49cc4f4cf472142283ea31"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\095.jpg": {
+    "mtime": 1783030898.8926997,
+    "hash": "e49d9b8d7675c9140f48784e5e4eccd9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\096.jpg": {
+    "mtime": 1783030898.8957007,
+    "hash": "40337de8253f5ce6b783be05940b2984"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\097.jpg": {
+    "mtime": 1783030898.9025505,
+    "hash": "342578311b7e89a4f1bd3ffcbf632009"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\098.jpg": {
+    "mtime": 1783030898.906548,
+    "hash": "93ebf6a7fda74bfe2b5379dded2f24b0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\099.jpg": {
+    "mtime": 1783030898.9095478,
+    "hash": "802deac3ef2413de57073329f51e4afa"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\100.jpg": {
+    "mtime": 1783030898.9129736,
+    "hash": "9d93d791c8d56954f7c351d0b389d7d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\101.jpg": {
+    "mtime": 1783030898.9175067,
+    "hash": "63f954ae791b0f7f015974c1475070e3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\102.jpg": {
+    "mtime": 1783030898.9208972,
+    "hash": "fff84942e1568395f24dea9a01307345"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\103.jpg": {
+    "mtime": 1783030898.92491,
+    "hash": "ecd8439de2a078de5557c7beeb76cfd6"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\104.jpg": {
+    "mtime": 1783030898.9284332,
+    "hash": "bac6ba840ce1a07d5efce079caf01353"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\105.jpg": {
+    "mtime": 1783030898.9344683,
+    "hash": "f81452f3dd98ada92d2ace2f2a6eb031"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\106.jpg": {
+    "mtime": 1783030898.9402933,
+    "hash": "515eaa8e53897f0b93610dc64d2824b9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\107.jpg": {
+    "mtime": 1783030898.9452915,
+    "hash": "fad4299af84d98a73c6bbbdb30d2600b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\108.jpg": {
+    "mtime": 1783030898.9505343,
+    "hash": "87b344613a11bcda46c55873a0e34da1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\109.jpg": {
+    "mtime": 1783030898.955549,
+    "hash": "89264058c48db9bc09fbf84e6cf4bcec"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\110.jpg": {
+    "mtime": 1783030898.9585514,
+    "hash": "576abbe13c3258cd43f5558b3e75cd4d"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\111.jpg": {
+    "mtime": 1783030898.9620595,
+    "hash": "c382a89837ca4f282ccf4852309b0f2e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\112.jpg": {
+    "mtime": 1783030898.9675932,
+    "hash": "769c4ead9009267b039beeb8f2e888d9"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\113.jpg": {
+    "mtime": 1783030898.970913,
+    "hash": "08135449ad75dd6d0688c4d89b5e9ef3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\114.jpg": {
+    "mtime": 1783030898.9739108,
+    "hash": "8dede0440a54bbb26ea370d28b82217f"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\115.jpg": {
+    "mtime": 1783030898.9764545,
+    "hash": "d70fb091ed77a9a1c69e94643531329c"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\116.jpg": {
+    "mtime": 1783030898.9804356,
+    "hash": "840802560c61c325da96a16a4c429cb0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\117.jpg": {
+    "mtime": 1783030898.986178,
+    "hash": "d7265e4ffbe957e42f65fa2d16ac25e3"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\118.jpg": {
+    "mtime": 1783030898.9891734,
+    "hash": "f29c28e6a33be81b5cb4f61af53997c1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\119.jpg": {
+    "mtime": 1783030898.9924812,
+    "hash": "1b3bede428d48f87552df562c1805b44"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\120.jpg": {
+    "mtime": 1783030898.9944766,
+    "hash": "b73070926019f9cc793f99d84fb36960"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\121.jpg": {
+    "mtime": 1783030898.9999974,
+    "hash": "9fa2e49cf990b4a1faa3d688b8c92d9b"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\122.jpg": {
+    "mtime": 1783030899.003564,
+    "hash": "69632c6d6f896e29ab1ca992cb3a1c71"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\123.jpg": {
+    "mtime": 1783030899.006565,
+    "hash": "0df3fc3a80f45c3049b02ff985549a4a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\124.jpg": {
+    "mtime": 1783030899.0095634,
+    "hash": "80d6e3c90b4dbe68686a8560ce8e6c81"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\125.jpg": {
+    "mtime": 1783030899.016046,
+    "hash": "12a1bf5dee9f59d2942038c16579aa03"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\126.jpg": {
+    "mtime": 1783030899.0204353,
+    "hash": "2d25d164bc5f51b1d647529a5d6e0ad7"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\127.jpg": {
+    "mtime": 1783030899.0224354,
+    "hash": "04e8c48a7afa8721275f502ce8f24fbc"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\128.jpg": {
+    "mtime": 1783030899.0254457,
+    "hash": "75df63b81a22f32c69c7f679176f9217"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\129.jpg": {
+    "mtime": 1783030899.0274336,
+    "hash": "0c1e2309b28d48aecea0e6e40df10583"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\130.jpg": {
+    "mtime": 1783030899.0304353,
+    "hash": "12273efdca7492284f60c7c8cbc8f2e8"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\131.jpg": {
+    "mtime": 1783030899.0344574,
+    "hash": "6e5b9df941fd6a94d0c41011201367c0"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\132.jpg": {
+    "mtime": 1783030899.0369787,
+    "hash": "68f083d5260913d41b7503369d0007ed"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\133.jpg": {
+    "mtime": 1783030899.0403047,
+    "hash": "0e9550723921d783aeebe12149afde8a"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\134.jpg": {
+    "mtime": 1783030899.043301,
+    "hash": "f07ca5cc78aa739b4b95c4581e2d564e"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\135.jpg": {
+    "mtime": 1783030899.0454936,
+    "hash": "f71acc004c61cbfc17fb07552f3d1749"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\136.jpg": {
+    "mtime": 1783030899.0500414,
+    "hash": "68b879f8f4536d709da2b66a5ffa0fec"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\137.jpg": {
+    "mtime": 1783030899.0552838,
+    "hash": "40edabea9f6394ea6a6d308f345b5013"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\138.jpg": {
+    "mtime": 1783030899.0598063,
+    "hash": "6d0cca0e86b5bfb4ef63b91740550f20"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\139.jpg": {
+    "mtime": 1783030899.0631506,
+    "hash": "37750cbb1155bb4a919199b45e9823f4"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\140.jpg": {
+    "mtime": 1783030899.0671546,
+    "hash": "b8ae589789da83143634017a891c6101"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\141.jpg": {
+    "mtime": 1783030899.0715325,
+    "hash": "90ee1aee75fa3e0293f7e84d44a13ad1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\142.jpg": {
+    "mtime": 1783030899.0745316,
+    "hash": "d645d28258d7fc7a7c474d3ef78a2dd2"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\143.jpg": {
+    "mtime": 1783030899.0775318,
+    "hash": "bfee93bd7962627ac15ec1a8e54ece42"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\144.jpg": {
+    "mtime": 1783030899.0805297,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\145.jpg": {
+    "mtime": 1783030899.0843525,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\146.jpg": {
+    "mtime": 1783030899.0873513,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\147.jpg": {
+    "mtime": 1783030899.0883477,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\148.jpg": {
+    "mtime": 1783030899.0903668,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\149.jpg": {
+    "mtime": 1783030899.0916743,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\150.jpg": {
+    "mtime": 1783030899.0936775,
+    "hash": "026c3a775b4e71d1bcb48598f07d61d1"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\151.jpg": {
+    "mtime": 1783030899.1003406,
+    "hash": "8d28853d2930404fcd4b7ffeeac18caa"
+  },
+  "C:\\Users\\givin\\github-repos\\Epiphany-Unlimited-Website\\public\\logo_sequence\\151.png": {
+    "mtime": 1783030899.1068761,
+    "hash": "b1afa914b9227476459e057e97f034f4"
+  }
+}
